@@ -27,7 +27,8 @@ export const Footer = () => {
           </a>
         </li>
       </ul>
-      <p className="text-center copyright">Copyright &copy; 2023 James Matsushita</p>
+      <p className="text-center copyright">Copyright &copy; 
+        <script type="text/javascript">document.write( new Date().getFullYear() );</script> James Matsushita</p>
     </footer>
   );
 };
