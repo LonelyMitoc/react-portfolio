@@ -1,15 +1,13 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import PageRender from './PageRender';
 
+import "./App.css";
+import "./index.css";
 
 function App() {
   return (
     <main className="portfolio-app">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+      <PageRender />
     </main>
   );
 }
